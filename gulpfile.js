@@ -13,8 +13,8 @@ gulp.task('jshint', function(){
 }) ;*/
 
 gulp.task('watch', function(){
-	gulp.watch('/*.js', reload);
-	gulp.watch('/*.html', reload);
+	gulp.watch('*.js', reload);
+	gulp.watch('*.html', reload);
 });
 
 /*
