@@ -1,9 +1,9 @@
 {
-  "name": "fiori",
+  "name": "prueba",
   "description": "",
   "main": "index.js",
   "license": "ISC",
-  "homepage": "https://github.com/brianh20/fiori",
+  "homepage": "https://github.com/brianh20/prueba",
   "ignore": [
     "**/.*",
     "node_modules",

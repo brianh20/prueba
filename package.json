@@ -1,5 +1,5 @@
 {
-  "name": "fiori",
+  "name": "prueba",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brianh20/fiori.git"
+    "url": "git+https://github.com/brianh20/prueba.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brianh20/fiori/issues"
+    "url": "https://github.com/brianh20/prueba/issues"
   },
-  "homepage": "https://github.com/brianh20/fiori#readme",
+  "homepage": "https://github.com/brianh20/prueba#readme",
   "devDependencies": {
     "browser-sync": "^2.17.5",
     "gulp": "^3.9.1",
