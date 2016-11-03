@@ -37,7 +37,7 @@ gulp.task('less', function() {
 gulp.task('serve', function(){
 	browserSync({
 		server:{
-			baseDir: ['./webapp'],
+			baseDir: ['./webapp/'],
       routes : {
         '/bower_components' : 'bower_components'
       }
