@@ -19,6 +19,7 @@ gulp.task('watch', function(){
 	gulp.watch('webapp/*.html', reload);
 	gulp.watch('webapp/*.json', reload);
 	gulp.watch('webapp/controller/*.js', reload);
+	gulp.watch('webapp/model/*.js', reload);
 	gulp.watch('webapp/view/*.xml', reload);
 	gulp.watch('webapp/css/style.css', reload);
 });
