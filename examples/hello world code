@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta charset="utf-8">
-	<title>Hello World App</title>
-	<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
-		id="sap-ui-bootstrap"
-		data-sap-ui-theme="sap_belize"
-		data-sap-ui-libs="sap.m">
-	</script>
-	<script type="text/javascript">
-		sap.ui.getCore().attachInit(function () {
+<script>
+			//RESOURCE HELLO WORLD
+			/*
 			// create a mobile app and display page1 initially
 			var app = new sap.m.App("myApp", {
 				initialPage: "page1"
@@ -40,9 +30,5 @@
 			app.addPage(page1).addPage(page2);
 			// place the app into the HTML document
 			app.placeAt("content");
-		});
-	</script>
-</head>
-<body class="sapUiBody" id="content">
-</body>
-</html>
+			*/
+</script>

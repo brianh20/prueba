@@ -15,6 +15,11 @@ gulp.task('jshint', function(){
 gulp.task('watch', function(){
 	gulp.watch('*.js', reload);
 	gulp.watch('*.html', reload);
+	gulp.watch('webapp/*.js', reload);
+	gulp.watch('webapp/*.html', reload);
+	gulp.watch('webapp/controller/*.js', reload);
+	gulp.watch('webapp/*.html', reload);
+	gulp.watch('webapp/view/*.xml', reload);
 });
 
 /*
@@ -30,7 +35,7 @@ gulp.task('less', function() {
 gulp.task('serve', function(){
 	browserSync({
 		server:{
-			baseDir: ['./'],
+			baseDir: ['./webapp'],
       routes : {
         '/bower_components' : 'bower_components'
       }

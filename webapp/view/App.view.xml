@@ -1,0 +1,9 @@
+<mvc:View
+	controllerName="sap.ui.demo.wt.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Text text="This is an XML text element." />
+	<Button
+		text="XML generated button."
+		press="onShowHello"/>
+</mvc:View>
